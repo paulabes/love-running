@@ -1,32 +1,60 @@
-/*  ------------------------------------------  OVERRIDE BROWSER STYLES  */
+/*  GOOGLE FONTS  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+/*  OVERRIDE BROWSER STYLES  */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/*  ------------------------------------------  BODY */
+/*  BODY  */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-/*  ------------------------------------------  GENERIC PROJECT STYLES */
+/*  GENERIC PROJECT STYLES  */
     color: #3a3a3a;
+    font-family: 'lato', sans-seif;
 }
 
-/*  ------------------------------------------  HEADER */
+/*  GOOGLE FONTS  */
+.oswald {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+/*  HEADER  */
 header {
     background-color: lightcoral;
 }
 
-/*  ------------------------------------------  MAIN CONTENT  */
+h1{
+    font-family: 'oswald', sans-serif;
+}
+
+/*  MAIN CONTENT  */
 main {
     background-color: lightblue;
-/*  ------------------------------------------  PUSH FOOTER DOWN  */
+/*  PUSH FOOTER DOWN  */
     flex: 1 0 auto;
 }
 
-/*  ------------------------------------------  FOOTER  */
+/*  FOOTER  */
 footer {
     background-color: orange;
 
