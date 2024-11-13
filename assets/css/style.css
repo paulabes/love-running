@@ -94,7 +94,6 @@ nav {
 /*  NAV TOGGLE  */
 #nav-toggle:checked~nav {
     display: block;
-
 }
 
 #nav-toggle {
@@ -152,5 +151,14 @@ footer {
     /*  MAIN CONTENT  */
     main {
         margin-top: 79px;
+    }
+}
+
+/*  MEDIA QUERY: 992px & LARGER  */
+@media screen and (min-width: 992px) {
+
+    /*  HOVER STATE  */
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
     }
 }
