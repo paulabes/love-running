@@ -121,6 +121,12 @@ main {
     list-style-type: none;
 }
 
+#social-networks i{
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
 /*  MEDIA QUERY: 768px & LARGER  */
 @media screen and (min-width: 768px) {
 
