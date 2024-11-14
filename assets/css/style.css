@@ -207,7 +207,7 @@ hr {
 }
 
 #photos {
-    line-height:  0;
+    line-height: 0;
 }
 
 /*  FOOTER  */
@@ -223,6 +223,16 @@ hr {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+/*  MEDIA QUERY: 576px & LARGER (Larger phones or landscape)  */
+@media screen and (min-width: 578px) {
+
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+
 }
 
 /*  MEDIA QUERY: 768px & LARGER  */
@@ -283,6 +293,10 @@ hr {
         text-align: end;
         align-self: flex-end;
     }
+    
+    #photos {
+        column-count: 3;
+    }
 }
 
 /*  MEDIA QUERY: 992px & LARGER  */
@@ -291,6 +305,10 @@ hr {
     /*  HOVER STATE  */
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+        
+    #photos {
+        column-count: 4;
     }
 }
 
