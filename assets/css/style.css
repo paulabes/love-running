@@ -190,13 +190,24 @@ hr {
     text-align: center;
     border: 2px solid #ffffff;
     /*  THIS WILL NOT WRAP ON SCREEN LESS THAT 400PX + EACH DIV WILL EXPAND TO FILL AVAILABLE SPACE  */
-    flex-basis: 200px; 
+    flex-basis: 200px;
     flex-grow: 1;
 }
 
 #times h3 {
     color: #afafaf;
 
+}
+
+/*  GALLERY  */
+
+#photos img {
+    width: 100%;
+    line-height: 1emadd;
+}
+
+#photos {
+    line-height:  0;
 }
 
 /*  FOOTER  */
